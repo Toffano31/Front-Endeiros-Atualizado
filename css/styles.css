@@ -8,6 +8,7 @@
 }
 
 html, body {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -34,4 +35,32 @@ body {
     background-position: center;
     background-size: cover;
     background-image: url("../assets/img/bg01.jpg");
+}
+
+header {
+    background-color: rgb(138, 255, 202);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav {
+background-color: rgb(3, 74, 42);
+}
+header img{
+    height: 4.5rem;
+    margin: .3rem .6rem .3rem .3rem;
+    width: 4.5rem;
+}
+header h1 {
+    font-size: 1.8rem;
+}
+header nav {
+    align-items: center;
+    background-color: rgb(3, 74, 42);
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    text-transform: uppercase;
+    width: 100%;
 }
