@@ -28,5 +28,10 @@ a:hover {
 }
 
 body {
-    background-image: url("../");
+    background-color: rgb(0, 93, 64);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../assets/img/bg01.jpg");
 }
